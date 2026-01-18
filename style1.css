@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight:weight;
+    font-style: normal;
+    background-color: #FFC981;
+}
+
+header {
+    background-color: #FFAB3C;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo h1 {
+    font-size: 52px;
+    font-weight: 900;
+    color:white;
+}
+
+.logo a {
+    font-size: 26px;
+    font-weight: 800;
+    color: white;
+}
+
+.nav {
+    display:flex;
+    flex-direction:row;
+    gap: 80px;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.nav a{
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #cf7500;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+}
+
+.history a {
+    color:white;
+    font-size: 32px;
+    font-weight: 800;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.history h1 {
+    color:white;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+.cennosti{
+    display: flex;
+    flex-direction: column;
+}
+
+.cennosti a {
+    color:white;
+    font-size: 32px;
+    font-weight: 800;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.cennosti h1 {
+    color:white;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.end p {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.end a {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.end a:hover {
+    color: #cf7500;
+}
+
+footer {
+    background-color: #FFAB3C;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
